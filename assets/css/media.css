@@ -1,0 +1,72 @@
+/*TABLET*/
+@media only screen and (min-width:480px){
+    /*sez 1*/
+    .cont-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .card{
+        flex-basis: calc(90%/3);
+    }
+
+    .card-1{
+        flex: 1 1 calc(90%/2);
+    }
+
+    /*sez 3*/
+    .card-3{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dot-1,
+    .dot-2,
+    .dot-3{
+        width: 33%;
+    }
+
+    .r-dot{
+        width: 66%;
+        text-align: left;
+    }
+
+    /*sez 4*/
+    .card-sec-4{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card-4{
+        flex-basis: calc(95% / 2);
+    }
+
+    /*sez 5*/
+    .sec-5{
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .left-5{
+        width: 60%;
+    }
+
+    .right-5{
+        width: 40%;
+    }
+
+    .right-5 .btn-p-4{
+        padding: 0.5em 1em;
+        font-size: small;
+    }
+}
+
+/*LAPTOP*/
+
+@media only screen and (min-width:1140px){
+    .nav
+}
