@@ -43,6 +43,14 @@ li{
 .text-c-black{
     color: black;
 }
+
+.text-c-purple{
+    color: #9792e4;
+}
+
+.text-c-gray{
+    color: #698195;
+}
 /*bottoni*/
 .btn-blue{
     padding: 0.5em 2.5em;
@@ -69,8 +77,8 @@ li{
 .line-height{
     line-height: 1.5em;
 }
-/*SECTION - Header*/
 
+/*SECTION - Header*/
 header{
     background-color: #0084fd;
     padding: 1em 0;
@@ -112,9 +120,19 @@ nav li:hover{
 
 /* 1-card*/
 .card{
-    padding: 0.8em;
+    padding: 1em;
     border-radius: 1em;
     margin: 1em 0;
+}
+
+.card-1{
+    padding-top: 1em;
+    border-radius: 1em;
+    margin: 1em 0;
+}
+
+main:first-child .card{
+    padding-bottom: 0;
 }
 
 .content{
@@ -131,11 +149,9 @@ nav li:hover{
 }
 
 .card p{
-    color: #698195;
     font-weight: 700;
     line-height: 1.5em;
     font-size: 1em;
-    margin-top: 1em;
 }
 
 .card .btn-blue{
@@ -143,7 +159,6 @@ nav li:hover{
 }
 
 .content span{
-    margin: 2em 0;
     letter-spacing: 0.1em;
 }
 
@@ -173,3 +188,52 @@ nav li:hover{
 .card-second-s p{
     margin: 2em 0;
 }
+
+/*!SECTION TERZA SECTION*/
+.sec-3{
+    text-align: center;
+}
+.card-3{
+    padding: 1em;
+    border-radius: 3em;
+    margin: 1em 0;
+}
+
+.dot-1{
+    margin: 0 auto;
+    background-image: url(../img/testimonial1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+
+.dot-2{
+    margin: 0 auto;
+    background-image: url(../img/testimonial2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+
+.dot-3{
+    margin: 0 auto;
+    background-image: url(../img/testimonial3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+
+.card h4{
+    letter-spacing: 0.2em;
+    
+}
+
