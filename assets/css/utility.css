@@ -69,6 +69,10 @@ li{
     line-height: 1.5em;
 }
 
+.line-height-2{
+    line-height: 2em;
+}
+
 /*text-size*/
 .f-w-300{
     font-weight: 300;

@@ -14,11 +14,10 @@
 }
 
 .btn-p-4{
-    padding: 0.5em 2.5em;
+    padding: 0.5em 1em;
     border-radius: 1em;
     background-color: #9792e4;
     color: white;
-    letter-spacing: 0.2em;
     font-weight: 500;
 }
 
@@ -180,7 +179,7 @@ main:first-child .card{
     letter-spacing: 0.2em;
 }
 
-/*!SECTION sez-4*/
+/*SECTION -  sez-4*/
 
 .card-4{
     padding: 2em 1.5em;
@@ -189,5 +188,25 @@ main:first-child .card{
 }
 
 .card-4 h2{
+    font-size: 3em;
+}
+
+/*SECTION - sez-5*/
+
+.img-sec-5{
+    position: relative;
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
+
+.img-sec-5 i{
+    position: absolute;
+    right: 0;
+    color: #9792e4;
     font-size: 3em;
 }
