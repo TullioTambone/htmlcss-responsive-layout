@@ -8,9 +8,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="./assets/css/utility.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+
 </head>
 <body>
 
@@ -20,7 +21,7 @@
                 <img src="./assets/img/logo.png" alt="logo">
             </div>
 
-            <i class="fa-solid fa-bars text-c-white">
+            <i class="fa-solid fa-bars text-c-white" id="drop">
                 <ul>
                     <li>Planning</li>
                     <li>Testimonial</li>
@@ -29,6 +30,14 @@
                     <li>Get started</li>
                 </ul>
             </i>
+
+            <ul>
+                <li>Planning</li>
+                <li>Testimonial</li>
+                <li>Features</li>
+                <li>About us</li>
+                <li>Get started</li>
+            </ul>
         </nav>
     </header>
 
@@ -36,20 +45,23 @@
         <!--1a sec-->
         <section class="container cont-1">
             <div class="card-1 card b-color-celeste">
-                <div class="content">
-                    <h2 class="text-c-blue">Get a demo application</h2>
+                <div class="content content-1">
+                    <div class="left-1">
+                        <h2 class="text-c-blue">Get a demo application</h2>
+        
+                        <p class="text-c-gray margin-1-0">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nisi, dolor in id tenetur sint, similique eum nesciunt velit pariatur?
+                        </p>
     
-                    <p class="text-c-gray margin-1-0">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nisi, dolor in id tenetur sint, similique eum nesciunt velit pariatur?
-                    </p>
-
-                    <span class="btn-blue margin-1-0">
-                        <i class="fa-brands fa-apple"></i>
-                        App Store
-                    </span>
-                    <div>
-                        <img src="./assets/img/phone.png" alt="">
+                        <span class="btn-blue margin-1-0">
+                            <i class="fa-brands fa-apple"></i>
+                            App Store
+                        </span>
                     </div>
+
+                </div>
+                <div class="right-1">
+                    <img src="./assets/img/phone.png" alt="">
                 </div>
             </div>
 
@@ -94,8 +106,9 @@
         <!--2a sec-->
         <section class="b-color-purple">
             <div class="container sec-2">
-                <div class="pad-4em-0">
-                    <div>
+                <div class="pad-4em-0 second-section">
+                    
+                    <div class="left-2">
                         <img src="./assets/img/planning1.png" alt="">
                         <h2 class="text-c-white margin-1-0">Strategic Planning</h2>
                         <p class="text-c-white margin-1-0 line-height">
@@ -103,7 +116,7 @@
                         </p>
                     </div>
 
-                    <div class="b-color-white card-second-s">
+                    <div class="b-color-white card-second-s right-2">
                         <img src="./assets/img/planning2.png" alt="">
                         <h2 class="margin-1-0">App Developement</h2>
                         <p class="margin-1-0">

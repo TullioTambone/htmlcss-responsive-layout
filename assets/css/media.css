@@ -66,7 +66,88 @@
 }
 
 /*LAPTOP*/
-
 @media only screen and (min-width:1140px){
-    .nav
+
+    .container,
+    nav{
+        width: 70%;
+    }
+
+    #drop{
+        display: none;
+    }
+
+    nav > ul{
+        display: block;
+    }
+
+    nav ul li{
+        display: inline-block;
+        color: white;
+        margin: 0 1em;
+    }
+
+    nav ul li:last-child{
+        padding: 0.5em 1em;
+        background-color: white;
+        border-radius: 1em;
+        color: black;
+        margin: 0.5em 1em;
+    }
+    .card-1{
+        display: flex;
+        padding: 0 1em;
+    }
+
+  
+    /*2 sec*/
+    .second-section{
+        display: flex;
+        justify-content: space-between;
+        gap: 5em;
+    }
+
+    .left-2{
+        width: 60em;
+    }
+
+    .left-2 h2{
+        margin-top: 5em;
+    }
+
+    .right-2{
+        width: 40em;
+        align-self: flex-end;
+    }
+
+    /*3 sec*/
+    .dot-1,
+    .dot-2,
+    .dot-3{
+        height: 10em;
+        width: 10em;
+    }
+
+    /*4 sec*/
+    .card-sec-4{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card-4{
+        flex-basis: calc(95% / 3);
+    }
+
+    /*5 sec*/
+    .sec-5{
+        gap: 0;
+    }
+    .left-5{
+        width: 70%;
+    }
+
+    .right-5{
+        width: 20%;
+    }
 }
