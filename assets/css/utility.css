@@ -20,6 +20,8 @@ li{
 }
 
 /* colori */
+
+/*background*/
 .b-color-celeste{
     background-color: #b5ddff;
 }
@@ -32,6 +34,11 @@ li{
     background-color: white;
 }
 
+.b-color-333{
+    background-color: #333;
+}
+
+/*testo*/
 .text-c-blue{
     color: #0084fd;
 }
@@ -52,6 +59,9 @@ li{
     color: #698195;
 }
 
+.text-c-arancio{
+    color: #fdc15f;
+}
 /*spaziature*/
 .margin-1-0{
     margin: 1em 0;
@@ -65,6 +75,14 @@ li{
     padding: 4em 0;
 }
 
+.pad-05em-0{
+    padding: 0.5em 0;
+}
+
+.pad-1em-0{
+    padding: 1em 0;
+}
+
 .line-height{
     line-height: 1.5em;
 }
@@ -73,6 +91,9 @@ li{
     line-height: 2em;
 }
 
+.t-sp-02{
+    letter-spacing: 0.2em;
+}
 /*text-size*/
 .f-w-300{
     font-weight: 300;
