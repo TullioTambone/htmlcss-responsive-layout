@@ -35,6 +35,14 @@ li{
 .text-c-blue{
     color: #0084fd;
 }
+
+.text-c-white{
+    color: white;
+}
+
+.text-c-black{
+    color: black;
+}
 /*bottoni*/
 .btn-blue{
     padding: 0.5em 2.5em;
@@ -58,6 +66,9 @@ li{
     padding: 4em 0;
 }
 
+.line-height{
+    line-height: 1.5em;
+}
 /*SECTION - Header*/
 
 header{
@@ -74,9 +85,6 @@ nav{
 }
 
 /*Bottone dx nav*/
-nav i{
-    color: white;
-}
 
 nav ul{
     border-radius: 0.5em;
@@ -150,6 +158,10 @@ nav li:hover{
 }
 
 /*!SECTION seconda section*/
+.sec-2 h2{
+    font-size: 2em;
+    font-weight: 800;
+}
 
 .card-second-s{
     margin: 2em 0;
@@ -159,5 +171,5 @@ nav li:hover{
 }
 
 .card-second-s p{
-    line-height: 1.5em;
+    margin: 2em 0;
 }
