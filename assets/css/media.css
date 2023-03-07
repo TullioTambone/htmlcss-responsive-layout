@@ -1,11 +1,12 @@
 /*TABLET*/
 @media only screen and (min-width:480px){
+    
     /*sez 1*/
     .cont-1{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 1em;
+        gap: 0.4em;
     }
 
     .card{
@@ -13,7 +14,7 @@
     }
 
     .card-1{
-        flex: 1 1 calc(90%/2);
+        flex: 1 0 calc(90%/2);
     }
 
     /*sez 3*/
@@ -25,7 +26,8 @@
     .dot-1,
     .dot-2,
     .dot-3{
-        width: 33%;
+        width: 10em;
+        aspect-ratio: 1;
     }
 
     .r-dot{
@@ -68,6 +70,11 @@
 /*LAPTOP*/
 @media only screen and (min-width:1140px){
 
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .container,
     nav{
         width: 70%;
@@ -78,7 +85,7 @@
     }
 
     nav > ul{
-        display: block;
+        display: inline-block;
     }
 
     nav ul li{
@@ -87,18 +94,26 @@
         margin: 0 1em;
     }
 
+    nav ul:hover{
+        background-color: rgba(200, 200, 200, 0);
+    }
+
     nav ul li:last-child{
         padding: 0.5em 1em;
         background-color: white;
         border-radius: 1em;
-        color: black;
         margin: 0.5em 1em;
     }
+
+    nav ul li:last-child a{
+        color: black;
+    }
+
+    /*1a sec*/
     .card-1{
         display: flex;
         padding: 0 1em;
     }
-
   
     /*2 sec*/
     .second-section{
@@ -124,8 +139,8 @@
     .dot-1,
     .dot-2,
     .dot-3{
-        height: 10em;
         width: 10em;
+        aspect-ratio: 1;
     }
 
     /*4 sec*/
